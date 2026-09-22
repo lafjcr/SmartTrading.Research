@@ -1,0 +1,73 @@
+{
+ "ea": "SmartEMAsRejector",
+ "symbols": 5,
+ "workers": 5,
+ "stop_after": null,
+ "started_at": "2026-09-22T05:17:14.198014+00:00",
+ "wall_clock_sec": 40.0,
+ "symbols_ok": 0,
+ "symbols_failed": 5,
+ "total_final_survivors": 0,
+ "per_symbol": [
+  {
+   "symbol": "EURUSD",
+   "config_id": null,
+   "error": "MemoryError((1, 2223936), dtype('int64'))",
+   "reached": "",
+   "final_survivors": null,
+   "wall_clock_sec": null,
+   "r1_elapsed_sec": null,
+   "r2_elapsed_sec": null,
+   "r3_elapsed_sec": null,
+   "r4_elapsed_sec": null
+  },
+  {
+   "symbol": "NDX",
+   "config_id": null,
+   "error": "MemoryError((1, 2064977), dtype('O'))",
+   "reached": "",
+   "final_survivors": null,
+   "wall_clock_sec": null,
+   "r1_elapsed_sec": null,
+   "r2_elapsed_sec": null,
+   "r3_elapsed_sec": null,
+   "r4_elapsed_sec": null
+  },
+  {
+   "symbol": "USDJPY",
+   "config_id": null,
+   "error": "MemoryError((2224688,), dtype('O'))",
+   "reached": "",
+   "final_survivors": null,
+   "wall_clock_sec": null,
+   "r1_elapsed_sec": null,
+   "r2_elapsed_sec": null,
+   "r3_elapsed_sec": null,
+   "r4_elapsed_sec": null
+  },
+  {
+   "symbol": "WS30",
+   "config_id": null,
+   "error": "MemoryError((1, 2059444), dtype('int64'))",
+   "reached": "",
+   "final_survivors": null,
+   "wall_clock_sec": null,
+   "r1_elapsed_sec": null,
+   "r2_elapsed_sec": null,
+   "r3_elapsed_sec": null,
+   "r4_elapsed_sec": null
+  },
+  {
+   "symbol": "XAUUSD",
+   "config_id": null,
+   "error": "MemoryError((2119322,), dtype('O'))",
+   "reached": "",
+   "final_survivors": null,
+   "wall_clock_sec": null,
+   "r1_elapsed_sec": null,
+   "r2_elapsed_sec": null,
+   "r3_elapsed_sec": null,
+   "r4_elapsed_sec": null
+  }
+ ]
+}

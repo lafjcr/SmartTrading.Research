@@ -1,0 +1,73 @@
+{
+ "ea": "SmartEMAsRejector",
+ "symbols": 5,
+ "workers": 2,
+ "stop_after": null,
+ "started_at": "2026-09-22T05:18:22.896246+00:00",
+ "wall_clock_sec": 28.2,
+ "symbols_ok": 5,
+ "symbols_failed": 0,
+ "total_final_survivors": 0,
+ "per_symbol": [
+  {
+   "symbol": "EURUSD",
+   "config_id": "0001ceba-b-eurusd",
+   "error": null,
+   "reached": "r1",
+   "final_survivors": 0,
+   "wall_clock_sec": 10.5,
+   "r1_elapsed_sec": 9.7,
+   "r2_elapsed_sec": null,
+   "r3_elapsed_sec": null,
+   "r4_elapsed_sec": null
+  },
+  {
+   "symbol": "NDX",
+   "config_id": "0001ceba-b-ndx",
+   "error": null,
+   "reached": "r1",
+   "final_survivors": 0,
+   "wall_clock_sec": 10.0,
+   "r1_elapsed_sec": 9.2,
+   "r2_elapsed_sec": null,
+   "r3_elapsed_sec": null,
+   "r4_elapsed_sec": null
+  },
+  {
+   "symbol": "USDJPY",
+   "config_id": "0001ceba-b-usdjpy",
+   "error": null,
+   "reached": "r1",
+   "final_survivors": 0,
+   "wall_clock_sec": 9.4,
+   "r1_elapsed_sec": 9.3,
+   "r2_elapsed_sec": null,
+   "r3_elapsed_sec": null,
+   "r4_elapsed_sec": null
+  },
+  {
+   "symbol": "WS30",
+   "config_id": "0001ceba-b-ws30",
+   "error": null,
+   "reached": "r1",
+   "final_survivors": 0,
+   "wall_clock_sec": 8.9,
+   "r1_elapsed_sec": 8.8,
+   "r2_elapsed_sec": null,
+   "r3_elapsed_sec": null,
+   "r4_elapsed_sec": null
+  },
+  {
+   "symbol": "XAUUSD",
+   "config_id": "0001ceba-b-xauusd",
+   "error": null,
+   "reached": "r1",
+   "final_survivors": 0,
+   "wall_clock_sec": 7.9,
+   "r1_elapsed_sec": 7.9,
+   "r2_elapsed_sec": null,
+   "r3_elapsed_sec": null,
+   "r4_elapsed_sec": null
+  }
+ ]
+}

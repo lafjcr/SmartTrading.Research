@@ -1,0 +1,22 @@
+{
+ "config_id": "0001ceba-b-usdjpy",
+ "ea": "SmartEMAsRejector",
+ "symbol": "USDJPY",
+ "broker": "Darwinex",
+ "tf": "M5",
+ "created_at": "2026-09-22T05:18:14.656461+00:00",
+ "stats": {
+  "r1": {
+   "elapsed_sec": 9.3,
+   "combos_evaluated": 27,
+   "combos_passed": 0,
+   "selected": 0
+  },
+  "total_elapsed_sec": 9.3,
+  "reached": [
+   "r1"
+  ],
+  "final_survivors": 0,
+  "wall_clock_sec": 9.4
+ }
+}
