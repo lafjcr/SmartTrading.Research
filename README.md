@@ -1,8 +1,8 @@
 # SmartTrading.Research
 
-Resultados del pipeline WFO de [smartbt](https://github.com/lafjcr/SmartTrading) (`Research/smartbt` del repo
+Resultados del pipeline WFO de [SmartTradingBT](https://github.com/lafjcr/SmartTrading) (`Research/SmartTradingBT` del repo
 `SmartTrading`). Empieza limpio (2026-09-22) — los backtests sueltos previos vivían en `smartrading/Research/results`
-y no se migraron porque son regenerables en segundos con `smartbt regress`/`smartbt run`.
+y no se migraron porque son regenerables en segundos con `SmartTradingBT regress`/`SmartTradingBT run`.
 
 ## Estructura
 
@@ -24,7 +24,7 @@ y no se migraron porque son regenerables en segundos con `smartbt regress`/`smar
 
 Cada ronda (`0N-*`) guarda como mínimo:
 - `input.set` / `output.set` — parámetros de entrada y el/los ganador(es).
-- `lineage.json` — de qué ronda/config viene (padre), commit de `smartbt`, hash del `.set`, versión de las fichas
+- `lineage.json` — de qué ronda/config viene (padre), commit de `SmartTradingBT`, hash del `.set`, versión de las fichas
   de broker usadas, rango de fechas, pipeline type (A/B).
 - El detalle específico de la ronda (folds del WFO, exclusión de meses/días, divergencia OHLC vs Every Tick, etc.).
 
@@ -35,7 +35,7 @@ se versionan completos, particionados por mes.
 
 Un archivo único `runs.parquet` (o `.csv` mientras el volumen es bajo) en la raíz, una fila por corrida/ronda con
 sus métricas clave, para no tener que recorrer carpetas al consultar resultados desde Claude u otra herramienta.
-Se genera y mantiene automáticamente al correr `smartbt pipeline` (pendiente de implementar).
+Se genera y mantiene automáticamente al correr `SmartTradingBT pipeline` (pendiente de implementar).
 
 ## Pendiente
 
